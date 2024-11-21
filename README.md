@@ -35,9 +35,9 @@ and how much it changes in the y direction), then calculating the change in dire
 only changing the sign of one of the components of the vector. If the ball hits something from the side, then
 the sign of the x part should change, if the ball hits something from the top or bottom, then the sign of the y
 part should change.
-Example if motion of the ball can be described by the vector d~ = (3; 4), this means that every step of the
+Example if motion of the ball can be described by the vector $\vec{d}$= (3; 4), this means that every step of the
 game the ball will change position by x in the x-axis and 4 in the y-axis. If the ball hits a wall (or brick from
-the side), then the vector would be changed to d~ = (−3; 4) and so would not be moving left. The ball should
+the side), then the vector would be changed to $\vec{d}$= (−3; 4) and so would not be moving left. The ball should
 keep moving up or down at the same rate as before the collision.
 
 ### Bouncing on Paddle
