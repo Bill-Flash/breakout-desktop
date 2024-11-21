@@ -1,11 +1,12 @@
-# breakout-desktop
+# Breakout-desktop
 Personal assignment of JAVA OOP
 
 Author: Bill-Flash
 
 Time: December 2020
 
-## game description   
+![angles](./pics/level_1.jpg)
+## Game description   
 Breakout is a classic arcade game. The objective of the game is to destroy all of the bricks at the top of the screen by hitting them with the ball. The player has a limited number of lives and a life is lost whenever the ball (or last ball) drops off the screen. The game can include some bonuses that can change the gameplay. These may be dropped when a brick is destroyed (approximately 1% chance) and will have different effects on the game. When dropped, the bonus will fall down the screen and must be collected by the paddle to be activated. Here are typical examples of the bonuses;
 
 - Multi-ball - Every ball is split into three moving off at slightly different angles from each other
@@ -21,9 +22,10 @@ to bounce the ball back up towards the bricks at the top of the screen. As a bal
 speed of the ball will increase. If a life is lost and we start again with another ball, the speed returns to normal.
 You can implement user input either using the keyboard or by using the mouse.
 Bounce Angle
-When the ball bounces off a brick or wall it bounces off at an angle. This angle is shown in the figure 1a for
-when the ball bounces off a wall or the side of a brick and figure 1b for when the ball is hitting a brick from
+When the ball bounces off a brick or wall it bounces off at an angle. In figure 1, this angle is shown for
+when the ball bounces off a wall or the side of a brick and figure 1 for when the ball is hitting a brick from
 above or below or hitting the roof.
+![angles](./pics/figure_1.jpg)
 
 The calculations that you will have to perform to represent this behaviour will depend on how you represent
 the motion of the ball. If you represent the motion using an heading and speed, then you will have to use
@@ -45,7 +47,9 @@ When the ball hits the paddle things can happen a little differently, the differ
 If the ball hits the middle third of the paddle, then the calculations are the same as hitting the top or bottom
 of a brick or the ceiling.
 If the ball hits the left or right thirds of the angle the ball makes on the way out is change by a random
-amount r. The effect of this can be seen in figures 2a, 2d, 2e and 2f.
+amount r. The effect of this can be seen in figures 2.
+
+![angles](./pics/figure_2.jpg)
 The effect of this should be that when the ball hits the left side of the paddle, it bounces a little more to
 the left and when it hits the right side of the paddle it bounces a little more to the right. The difference (r)
 should be a random number between 10 and 30 degrees.
@@ -55,3 +59,5 @@ direction the ball is travelling from.
 ### Levels
 When the player completes a level (by destroying all of the bricks) the game is started with a new level with
 bricks in a different configuration or shape.
+
+![angles](./pics/level_2.jpg)
