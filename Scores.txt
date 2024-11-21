@@ -1,0 +1,10 @@
+10100 Vans
+9500 Bill
+9100 Mike
+7400 William
+5800 Curry
+3000 Bill
+2600 Ham
+2300 John
+2000 Bill
+1600 John
